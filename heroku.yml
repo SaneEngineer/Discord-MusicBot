@@ -1,0 +1,9 @@
+build:
+  docker:
+    web: Dockerfile
+  heroku:
+    app: discord-music-bot325
+    stack: container
+
+run:
+  web: docker-compose up
